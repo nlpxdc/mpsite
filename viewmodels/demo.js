@@ -1,13 +1,14 @@
-console.log('load index.js');
+console.log('load demo.js');
 
 // const access_token = '17_Wi7SeShqk1mfoZhLCjtH9Xpd56-0gFoqKTw86Ni4jWzfXNUoOBco5eTRo_BohtfogQR3sqJTSQXuIhRrEG-cqM8nvyIKVr3jS9BF6cSZG-QuftGgZ5-dXUpjG7DdqGr3HNAPT1ga9_aoo8NEGOQiAAAUCE';
-const ticket = 'LIKLckvwlJT9cWIhEQTwfJuU557garB7J1tppEvMocXm6y87YjZiRkpwsw8zwY74LyWdyXRI9cPtNH6TBrhKSA';
+const ticket = 'LIKLckvwlJT9cWIhEQTwfJuU557garB7J1tppEvMocWaUNMGm_wNCdcXBm3hER-GpiKJXedWqfmZvz_mf_RtJQ';
 
 const appId = 'wx0c14a6dfeab19166';
 const timestamp = Date.now();
 const nonceStr = Math.random().toString(16).substr(2);
 
 const url = location.href;
+console.log(url);
 
 const originParams = 'jsapi_ticket=' + ticket
     + '&noncestr=' + nonceStr
