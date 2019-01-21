@@ -6,8 +6,9 @@ const ticket = 'LIKLckvwlJT9cWIhEQTwfJuU557garB7J1tppEvMocXm6y87YjZiRkpwsw8zwY74
 const appId = 'wx0c14a6dfeab19166';
 const timestamp = Date.now();
 const nonceStr = Math.random().toString(16).substr(2);
-const url = 'http://192.168.137.1:5000/demo';
-// const url = 'http://192.168.137.1:5000/demo?openId=123';
+
+const url = location.href;
+
 const originParams = 'jsapi_ticket=' + ticket
     + '&noncestr=' + nonceStr
     + '&timestamp=' + timestamp
